@@ -7,6 +7,7 @@ import StatusSnackbar from './components/StatusSnackBar';
 import './App.css';
 import { Register } from './pages/Register';
 import { Login } from './pages/Login';
+import { Home } from './pages/Home';
 
 function App() {
     return (
@@ -23,14 +24,14 @@ function App() {
                     <Routes>
                         <Route path="/login" element={<Login />} />
                         <Route path="/register" element={<Register />} />
-                        {/* <Route
+                        <Route
                             path="/"
                             element={
                                 <PrivateRoute>
-                                    <Dashboard />
+                                    <Home />
                                 </PrivateRoute>
                             }
-                        /> */}
+                        />
                     </Routes>
                 </Router>
             </SnackbarProvider>
