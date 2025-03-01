@@ -11,8 +11,8 @@ import SearchIcon from '@mui/icons-material/Search';
 const dummyUsers = [
     {
         id: 0,
-        name: 'Fucker',
-        lastMessage: 'fuck me',
+        name: 'Shadow',
+        lastMessage: 'fuck you papa',
         seen: true,
         lastUpdate: `${new Date().getHours()}:${new Date().getMinutes()}`,
         isSelected: false,
